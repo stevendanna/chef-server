@@ -253,6 +253,8 @@ EOM
   end
 end
 
+puts "\nPatents: https://www.chef.io/patents \n\n"
+
 if Process.euid != 0
   puts "This command must be run as root"
   exit 1
